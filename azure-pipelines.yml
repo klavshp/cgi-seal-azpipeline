@@ -20,6 +20,6 @@ steps:
     location: 'North Europe'
     templateLocation: 'Linked artifact'
     csmFile: 'cgi-seal-azpipeline/azuredeploy.json'
-    overrideParameters: '-projectName AzureRmPipelineProject -linkedTemplateUri https://github.com/klavshp/cgi-seal-azpipeline'
+    overrideParameters: '-projectName AzureRmPipelineProject -linkedTemplateUri https://raw.githubusercontent.com/klavshp/cgi-seal-azpipeline/master/linkedStorageAccount.json'
     deploymentMode: 'Incremental'
     deploymentName: 'DeployPipelineTemplate'
